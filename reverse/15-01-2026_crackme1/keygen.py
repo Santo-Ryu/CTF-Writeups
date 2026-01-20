@@ -26,4 +26,4 @@ def generate_key(username):
     return int(key[2*(len(username)-8):][0:8])
 
 if "__main__":
-    print(keygen_version1("ABCDEFGH"))
+    print(generate_key("99k1kk22"))
